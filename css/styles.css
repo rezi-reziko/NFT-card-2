@@ -1,0 +1,104 @@
+body {
+  background-color: hsl(217, 54%, 11%);
+  text-align: center;
+}
+h1 {
+  color: hsl(0, 0%, 100%);
+  font-size: 20px;
+  font-family: 'Outfit', sans-serif;
+  font-weight: 600;
+  text-align: left;
+  margin-left: 26px;
+}
+h1:hover {
+  color: hsl(178, 100%, 50%);
+  cursor: pointer;
+
+}
+p {
+  color: hsl(0, 0%, 100%, 60%);
+  font-size: 15px;
+  font-weight: 300;
+  text-align: left;
+  margin-left: 26px;
+  width: 70%;
+  font-family: 'Outfit', sans-serif;
+}
+span {
+  padding-right: 5px;
+}
+hr {
+  width: 90%;
+  color: hsl(0, 0%, 100%, 60%);
+}
+ul {
+  list-style-type: none;
+}
+
+
+
+
+
+
+
+
+
+.main-container {
+ background-color: hsl(216, 50%, 16%);
+ width: 27%;
+ height: 550px;
+ margin: 50px auto 20px;
+ border-radius: 1rem;
+ padding-bottom: 30px;
+}
+.crypto {
+  width: 300px;
+  height: 300px;
+  margin-top: 25px;
+  border-radius: 0.5rem;
+}
+.icon-eth {
+  position:relative;
+  right: 130px;
+  color: hsl(178, 100%, 50%);
+  font-family: 'Outfit', sans-serif;
+}
+.icon-clock {
+  position: relative;
+  left: 85px;
+  bottom: 20px;
+}
+.wtf {
+  color: hsl(0, 0%, 100%, 60%);
+}
+.avatar {
+  width: 50px;
+  height: 50px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: white;
+  border-radius: 50%;
+  margin-top: 10px;
+  position: relative;
+  right: 30px;
+}
+.plast {
+  display: inline;
+  position: relative;
+  bottom: 20px;
+  right: 35px;
+  color: hsl(0, 0%, 100%, 60%);
+}
+.attribution { font-size: 16px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+.attribution {
+  margin-bottom: 30px;
+  margin-top: 10px;
+}
+.span1 {
+  color:  white;
+}
+.span1:hover {
+  cursor: pointer;
+  color: hsl(178, 100%, 50%);
+}
